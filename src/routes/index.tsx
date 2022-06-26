@@ -5,6 +5,7 @@ import DashboardLayout from '../layouts/dashboard';
 import LogoOnlyLayout from '../layouts/LogoOnlyLayout';
 // components
 import LoadingScreen from '../components/LoadingScreen';
+import Login from '../pages/auth/Login';
 
 // ----------------------------------------------------------------------
 
@@ -24,6 +25,10 @@ export default function Router() {
     {
       path: '/',
       element: <Navigate to="/dashboard/one" replace />,
+    },
+    {
+      path: '/login',
+      element: <Login/>,
     },
     {
       path: '/dashboard',

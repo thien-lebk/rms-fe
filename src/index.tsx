@@ -12,6 +12,7 @@ import { HelmetProvider } from 'react-helmet-async';
 // contexts
 import { SettingsProvider } from './contexts/SettingsContext';
 import { CollapseDrawerProvider } from './contexts/CollapseDrawerContext';
+import './index.css'
 
 //
 import App from './App';
